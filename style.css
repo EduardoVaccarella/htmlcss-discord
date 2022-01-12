@@ -117,16 +117,19 @@ ul a {
 }
 
 .container1 {
+    margin: 0 auto;
     background-image: none;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 .container2 {
+    margin: 0 auto;
     background-color: #F6F6F6;
 }
 
 #sottotitolo-section3 {
+    text-align: center;
     font-size: 48px;
     margin-bottom: 30px;
 }
@@ -135,15 +138,65 @@ ul a {
     text-align: center;
 }
 
-.container2 img {
-    margin: 0 auto;
+.container3 img {
+    width: 100%;
 }
 
-.container2 div {
+.container3 div {
+    width: 40%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 0 auto;
+    background-image: url(img/stars.svg);
+    background-position: center;
 }
 
 .scarica {
+    max-width: 20%;
+    display: block;
     background-color: #8EA1E1;
     color: white;
+    margin: 0 auto;
+}
+
+.footer {
+    padding-left: 175px;
+    padding-left: 175px;
+    padding: 10px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+}
+
+.container-footer h2 {
+    font-size: 50px;
+    color: #8EA1E1;
+    margin-left: 4%;
+}
+
+.container-footer {
+    margin-right: 10%;
+}
+
+.container-footer p {
+    color: white;
+    margin-top: 10px;
+    margin-left: 4%;
+}
+
+#ul2 li {
+    display: block;
+}
+
+.container-footer {
+    justify-content: start;
+    display: inline-block;
+    width: 10%;
+}
+
+.container-footer h2 {
+    color: #8EA1E1;
+    margin-left: 4%;
 }
